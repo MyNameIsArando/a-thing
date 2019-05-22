@@ -7,7 +7,7 @@ body {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     height: 100%; width: 100%;
     background: #121212;
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/bg3.gif');
     background-size: cover;
     overflow: hidden
 }
@@ -97,7 +97,7 @@ ul {
     width: 100%;
     height: 50px;
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
     background-color: #202020;
     text-align: center;
