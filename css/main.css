@@ -9,7 +9,8 @@ body {
     background: #121212;
     background-image: url('../img/bg3.gif');
     background-size: cover;
-    overflow: hidden
+    overflow: hidden;
+    color: #fff;
 }
 h1, h2, h4 {
     margin: 0;
@@ -43,22 +44,23 @@ h4 {
     display: inline;
     padding: 0 0 4px 0;
     margin: 0 20px;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
     animation: navStart 2s;
 }
 @keyframes navStart {
-    0% { margin: 0px; opacity: 0; }
+    0% { margin: 0px 15px; opacity: 1; }
     100% { margin: 0 20px; opacity: 1;}
 }
 h4:hover {
-    border-bottom: 3px solid tomato;
+    border-bottom: 3px solid #35b88f;
 }
 hr {
 	margin: 2px 42% 2px 42%;
-	border-top: 1px solid #fff;
+    border-top: 1px solid #fff;
+    animation: fadeLine 2s;
 }
 html {
-    margin: 0; height: 100%; overflow: hidden
+    margin: 0; height: 100%; overflow: hidden;
 }
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -74,6 +76,11 @@ span {
 ul {
     font-size: 1.5em;
     text-align: left;
+}
+
+@keyframes fadeLine {
+    0% { opacity: 0; margin: 2px 50% 2px 50%;}
+    100% {opacity: 100%; margin: 2px 42% 2px 42%; }
 }
 
 /* General Classes */
