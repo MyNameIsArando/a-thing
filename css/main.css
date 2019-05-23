@@ -9,6 +9,7 @@ body {
     background: #121212;
     background-image: url('../img/bg3.gif');
     background-size: cover;
+    background-position: center;
     overflow: hidden;
     color: #fff;
 }
@@ -52,6 +53,7 @@ h4 {
     100% { margin: 0 20px; opacity: 1;}
 }
 h4:hover {
+    color: #35b88f;
     border-bottom: 3px solid #35b88f;
 }
 hr {
@@ -66,16 +68,7 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
     color: #fff;
-    padding: 0.5em 0;
     margin: 0;
-}
-
-span {
-    color: tomato;
-}
-ul {
-    font-size: 1.5em;
-    text-align: left;
 }
 
 @keyframes fadeLine {
@@ -164,6 +157,7 @@ ul {
 }
 .sectionContent {
     width: 100%; height: 80%;
+    text-align: center;
     background: #131313;
 }
 .sectionTitle {
@@ -171,12 +165,52 @@ ul {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    letter-spacing: 8px;
+    letter-spacing: 15px;
     font-weight: 200;
-    font-size: 2.4em;
+    font-size: 2.8em;
     padding: 1em 0;
 }
 
+/* About */
+.aboutContainer {
+    padding: 3em;
+}
+.aboutText {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 2em;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.pointCont {
+    display: inline-block;
+    width: 300px; height: 200px;
+    margin: 45px 10px 10px 10px;
+    vertical-align: top;
+}
+.pointCont.large {
+    height: 150px;
+    margin: 25px 10px 0 20px;
+}
+.pointIcon {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+.pointIcon.large {
+    font-size: 100px;
+    padding-bottom: 0;
+}
+.pointText {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.pointText.large {
+    font-size: 1.3em;
+}
 
 
 
