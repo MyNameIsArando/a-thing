@@ -177,7 +177,8 @@ p {
 }
 .aboutGrey {
     width: 100%;
-    background: #252525;
+    background-image: url(../img/bg1.gif);
+    background-size: cover;
 }
 .aboutText {
     font-family: 'Source Sans Pro', sans-serif;
