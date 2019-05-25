@@ -49,8 +49,8 @@ h4 {
     display: inline;
     padding: 0 0 4px 0;
     margin: 0 20px;
-    transition: 0.1s ease-in-out;
-    animation: navStart 2s;
+    transition: 0.2s ease-in-out;
+    animation: navStart 1s;
 }
 @keyframes navStart {
     0% { margin: 0px 15px; opacity: 1; }
@@ -59,6 +59,7 @@ h4 {
 h4:hover {
     color: #35b88f;
     border-bottom: 3px solid #35b88f;
+    margin: 0 30px;
 }
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -74,6 +75,10 @@ hr {
 }
 .hLeft {
     margin: 8px 60% 8px 0;
+    animation: none;
+}
+.hLarge {
+    margin: 3px 25% 3px 25%;
     animation: none;
 }
 @keyframes fadeLine {
@@ -276,7 +281,7 @@ hr {
     text-align: left;
 }
 .ownerName {
-    font-size: 2em;
+    font-size: 2.3em;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -284,7 +289,8 @@ hr {
 }
 .ownerBio {
     color: #fff;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .boysIntro {
@@ -294,7 +300,7 @@ hr {
     line-height: 2em;
     letter-spacing: 1px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .boysContainer {
     text-align: center;
@@ -302,7 +308,7 @@ hr {
 }
 .boysProfile {
     display: inline-block; vertical-align: top;
-    height: 380px; width: 200px;
+    height: 350px; width: 200px;
     background-color: #252525;
     margin: 10px;
 }
@@ -318,6 +324,35 @@ hr {
     border-radius: 10px;
     background-size: contain;
     background-position: center;
+}
+.boysText-cont {
+    padding: 10px;
+}
+.boysName {
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+.boysBio {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+
+/* Service */
+.serviceContainer {
+    padding: 3em 0;
+}
+.serviceIntro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 2em;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 25px;
 }
 
 
