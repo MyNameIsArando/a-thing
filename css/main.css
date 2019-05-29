@@ -553,3 +553,125 @@ hr {
     }
 
 }
+
+/* ---- MOBILE CSS ---- */
+@media screen and (max-width: 1080px) {
+    h2 {
+        font-size: 76px;
+    }
+    hr {
+        border-top: 1px solid #fff;
+    }
+    #subtitle {
+        font-size: 26px;
+    }
+    .avatar {
+        width: 500px; height: 500px;
+    }
+    .sectionStart {
+        height: 10%;
+    }
+    .sectionTitle {
+        font-size: 3.5em;
+    }
+    .sectionContent {
+        height: 90%;
+    }
+    .aboutContainer {
+        padding: 3em 0;
+    }
+    .aboutText {
+        font-size: 1.6em;
+        line-height: 2em;
+    }
+    .pointCont {
+        height: 350px; 
+    }
+    .pointCont.large {
+        width: 300px;
+        height: 200px;
+    }
+    .pointIcon {
+        font-size: 100px;
+    }
+    .pointIcon.large {
+        font-size: 100px;
+    }
+    .pointText {
+        font-size: 1.5em;
+    }
+
+    /* Big Boys */
+    .ownerContainer {
+        height: 254px;
+    }
+    .ownerAvi {
+        width: 250px; height: 250px;
+    }
+    .ownerName {
+        font-size: 2.5em;
+    }
+    .ownerBio {
+        font-size: 1.5em;
+    }
+    .ownerBio-cont {
+        height: 250px;
+    }
+    .boysIntro {
+        font-size: 1.2em;
+    }
+    .boysContainer {
+        text-align: center;
+        padding: 5px 0;
+    }
+    .boysProfile {
+        display: inline-block; vertical-align: top;
+        height: 400px; width: 260px;
+        background-color: #252525;
+        margin: 10px;
+    }
+    .boysAvi-cont {
+        height: 140px; width: 140px;
+        padding: 15px 60px;
+    }
+    .boysAvi {
+        height: 140px; width: 140px;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    .boysText-cont {
+        padding: 10px 20px;
+    }
+    .boysName {
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 1.4em;
+        padding-bottom: 5px;
+    }
+    .boysBio {
+        font-size: 1.05em;
+    }
+
+    /* Services */
+    .serviceItem-cont {
+        padding: 1em;
+    }
+    .serviceItem {
+        width: 200px; height: 200px;
+    }
+    .serviceTitle {
+        font-size: 1.8em;
+    }
+    .serviceButton {
+        font-size: 1.1em;
+    }
+
+    /* FAQ */
+    .faqQuestion {
+        font-size: 1.35em;
+    }
+    .faqAnswer {
+        font-size: 1.35em;
+        padding-bottom: 5px;
+    }
+}
