@@ -559,6 +559,12 @@ hr {
     h2 {
         font-size: 76px;
     }
+    h4 {
+        font-size: 24px;
+    }
+    .navBar {
+        height: 70px;
+    }
     hr {
         border-top: 1px solid #fff;
     }
@@ -577,48 +583,57 @@ hr {
     .sectionContent {
         height: 90%;
     }
+
+    /* About */
     .aboutContainer {
         padding: 3em 0;
     }
     .aboutText {
         font-size: 1.6em;
-        line-height: 2em;
+        line-height: 2.5em;
     }
     .pointCont {
         height: 350px; 
     }
     .pointCont.large {
         width: 300px;
-        height: 200px;
+        height: 250px;
     }
     .pointIcon {
-        font-size: 100px;
+        font-size: 130px;
     }
     .pointIcon.large {
-        font-size: 100px;
+        font-size: 150px;
     }
     .pointText {
         font-size: 1.5em;
     }
+    .aboutButton {
+        width: 250px;
+        font-size: 1.2em;
+        margin: 30px 5px;
+    }
 
     /* Big Boys */
     .ownerContainer {
-        height: 254px;
+        height: 284px;
     }
     .ownerAvi {
-        width: 250px; height: 250px;
+        width: 240px; height: 240px;
+        margin: 20px;
     }
     .ownerName {
-        font-size: 2.5em;
+        margin-top: 20px;
+        font-size: 2.6em;
     }
     .ownerBio {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
     .ownerBio-cont {
         height: 250px;
     }
     .boysIntro {
-        font-size: 1.2em;
+        font-size: 1.7em;
     }
     .boysContainer {
         text-align: center;
@@ -626,7 +641,7 @@ hr {
     }
     .boysProfile {
         display: inline-block; vertical-align: top;
-        height: 400px; width: 260px;
+        height: 400px; width: 280px;
         background-color: #252525;
         margin: 10px;
     }
@@ -649,12 +664,15 @@ hr {
         padding-bottom: 5px;
     }
     .boysBio {
-        font-size: 1.05em;
+        font-size: 1.1em;
     }
 
     /* Services */
     .serviceItem-cont {
         padding: 1em;
+    }
+    .serviceIntro {
+        font-size: 1.7em;
     }
     .serviceItem {
         width: 200px; height: 200px;
@@ -668,10 +686,10 @@ hr {
 
     /* FAQ */
     .faqQuestion {
-        font-size: 1.35em;
+        font-size: 1.5em;
     }
     .faqAnswer {
-        font-size: 1.35em;
+        font-size: 1.5em;
         padding-bottom: 5px;
     }
 }
