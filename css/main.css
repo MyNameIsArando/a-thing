@@ -555,7 +555,7 @@ hr {
 }
 
 /* ---- MOBILE CSS ---- */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 700px) {
     h2 {
         font-size: 76px;
     }
