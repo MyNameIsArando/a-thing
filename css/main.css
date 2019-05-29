@@ -560,7 +560,7 @@ hr {
         font-size: 76px;
     }
     h4 {
-        font-size: 24px;
+        font-size: 20px;
     }
     .navBar {
         height: 70px;
@@ -630,6 +630,7 @@ hr {
         font-size: 1.6em;
     }
     .ownerBio-cont {
+        width: 620px;
         height: 250px;
     }
     .boysIntro {
