@@ -403,14 +403,35 @@ hr {
     color: #fff;
 }
 
+/* FAQ */
+.faq-cont {
+    padding: 3em 14%;
+}
+.faqQuestion {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 2em;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #45e9b5;
+}
+.faqAnswer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.35em;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.faqHighlight {
+    color: #fff;
+    background-color: #268a6aa9;
+}
+
 /* Adapative Resolutions */
 @media screen and (max-width: 1367px) {
-    .avatar {
-        width: 300px;
-        height: 300px;
-    }
-}
-@media screen and (max-width: 1024px) {
     h2 {
         font-size: 36px;
     }
@@ -421,13 +442,114 @@ hr {
         width: 280px;
         height: 280px;
     }
-    .showcase {
-        width: 990px;
+
+    .navBar {
+        height: 30px;
     }
-    .showTitle {
-        font-size: 30px;
+    h4 {
+        font-size: 12px;
     }
-    .showDesc {
-        font-size: 0.9em;
+    .sectionTitle {
+        font-size: 2em;
     }
+
+    /* About */
+    .aboutContainer {
+        padding: 1em 0;
+    }
+    .aboutText {
+        font-size: 1em;
+        line-height: 1.3em;
+    }
+    .pointCont {
+        height: 150px; 
+    }
+    .pointCont.large {
+        width: 200px;
+        height: 100px;
+    }
+    .pointIcon {
+        font-size: 50px;
+    }
+    .pointIcon.large {
+        font-size: 50px;
+    }
+    .pointText {
+        font-size: 0.8em;
+    }
+
+    /* Big Boys */
+    .ownerContainer {
+        height: 124px;
+    }
+    .ownerAvi {
+        width: 120px; height: 120px;
+    }
+    .ownerName {
+        font-size: 1.5em;
+    }
+    .ownerBio {
+        font-size: 1em;
+    }
+    .ownerBio-cont {
+        height: 100px;
+    }
+    .boysIntro {
+        font-size: 1.2em;
+    }
+    .boysContainer {
+        text-align: center;
+        padding: 5px 0;
+    }
+    .boysProfile {
+        display: inline-block; vertical-align: top;
+        height: 250px; width: 140px;
+        background-color: #252525;
+        margin: 10px;
+    }
+    .boysAvi-cont {
+        height: 80px; width: 80px;
+        padding: 5px 30px;
+    }
+    .boysAvi {
+        height: 80px; width: 80px;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    .boysText-cont {
+        padding: 5px;
+    }
+    .boysName {
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 0.8em;
+        padding-bottom: 5px;
+    }
+    .boysBio {
+        font-size: 0.7em;
+    }
+
+    /* Services */
+    .serviceItem-cont {
+        padding: 1em;
+    }
+    .serviceItem {
+        width: 120px; height: 120px;
+    }
+    .serviceTitle {
+        font-size: 1em;
+    }
+    .serviceButton {
+        font-size: 0.55em;
+    }
+
+    /* FAQ */
+    .faqQuestion {
+        font-size: 0.8em;
+    }
+    .faqAnswer {
+        font-size: 0.8em;
+        padding-bottom: 5px;
+    }
+
 }
