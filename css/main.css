@@ -597,7 +597,7 @@ hr {
     }
     .pointCont.large {
         width: 300px;
-        height: 250px;
+        height: 300px;
     }
     .pointIcon {
         font-size: 130px;
@@ -687,10 +687,10 @@ hr {
 
     /* FAQ */
     .faqQuestion {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
     .faqAnswer {
-        font-size: 1.5em;
+        font-size: 1.6em;
         padding-bottom: 5px;
     }
 }
